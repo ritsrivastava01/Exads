@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Online URL
 
+[Application URL](https://ritsrivastava01.github.io/Exads/)
+
 ## Code Structure:
 
 Application contains four major components:

@@ -11,8 +11,9 @@
 <p> But in this case, the
     parent component (settings) has blank path and
     <b>API- Key path</b> has <code>path:api-keys</code> path. Hence, angular router tries to load
-    <code>localhost:4200//api-keys</code> in the browser but it is shown as
-    <code>localhost:4200/api-keys</code> . When we click on
+    <code>https://ritsrivastava01.github.io/Exads/setting-component-path/api-keys</code> in the browser but it is
+    shown as
+    <code>https://ritsrivastava01.github.io/Exads/api-keys</code>. When we click on
     another menu, router tries to find that path inside <b>api-keys</b> and its
     fails to load that path. Hence, it throws the error (error in console).
 </p>
@@ -24,7 +25,7 @@
 </p>
 <p>
     e.g. if we first click on <b>Go to Settings</b> (top left first button) button then angular route will
-    redirect to <code>http://localhost:4200/settings</code>and then if we click on
+    redirect to <code>https://ritsrivastava01.github.io/Exads/settings</code>and then if we click on
     any tab, router will try to find that component inside the
     <b>Settings component</b> and it works fine!!!
 </p>
