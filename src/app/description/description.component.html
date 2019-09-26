@@ -1,0 +1,31 @@
+<p class="mat-title">Code</p>
+<code>
+    &lt;p class="page-title" translate&gt;Settings&lt;/p&gt;
+    <br>
+    &lt;nav mat-tab-nav-bar&gt;
+    <br>
+    &lt;a mat-tab-link
+    <br>
+    *ngFor="let menuItem of settingsMenu"
+    <br>
+    [routerLink]="menuItem.route"
+    <br>
+    routerLinkActive #rla="routerLinkActive"
+    <br>
+    [active]="rla.isActive"&gt;
+    <br>
+    {{ menuItem.title
+        &lt;/a&gt;
+        &lt;/nav&gt;
+        <br>
+        &lt;router-outlet&gt;&lt;/router-outlet&gt;
+    </code>
+
+<p>Above code will generate the two tabs (API-Keys and My Profile) as we can see the example on <b>Settings Tab</b>
+    (<i>router error problem and proposed solution were described on that screen</i>) </p>
+
+<p><code> routerLinkActive #rla="routerLinkActive"</code> is used to
+    add/remove the class on active link OR tab where <code>#rla</code>is used as template variable</p>
+
+<p><code> [active]="rla.asActive"</code> is used to
+    set the tab active or inactive</p>

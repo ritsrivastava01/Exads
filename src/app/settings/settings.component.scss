@@ -1,0 +1,15 @@
+:host {
+    padding-top: 10px;
+    display: block;
+    
+  p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+
+    code {
+      background: rgba(0, 0, 0, 0.03);
+      padding: 3px;
+      font-size: 90%;
+    }
+  }
+}
